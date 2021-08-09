@@ -18,7 +18,7 @@
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
 #echo 'src-git r619ac https://github.com/R619AC-OpenWrt/OpenWrt-Packages' >>feeds.conf.default
-echo 'src-git liuran https://github.com/liuran001/openwrt-packages' >>feeds.conf.default
+sed -i '$a src-git liuran https://github.com/liuran001/openwrt-packages' feeds.conf.default
 
 # 包含openclash , SSR+ 和 passwall等
 #echo 'src-git kenzo https://github.com/kenzok8/openwrt-packages'  >>feeds.conf.default
