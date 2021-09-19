@@ -24,8 +24,8 @@ env:
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: newifi3test.config
-  DIY_P1_SH: source2.sh
-  DIY_P2_SH: diy-part2.sh
+  DIY_P1_SH: part1b.sh
+  DIY_P2_SH: part2a.sh
   UPLOAD_BIN_DIR: true
   UPLOAD_FIRMWARE: true
   UPLOAD_COWTRANSFER: false
